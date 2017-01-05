@@ -4,6 +4,7 @@
 // </copyright>
 // --------------------------------------------------------------------------------------------------------------------
 
+using OxyPlot;
 using OxyPlot.WindowsForms;
 
 namespace WindowsFormsDemo
@@ -62,6 +63,6 @@ namespace WindowsFormsDemo
 
         #endregion
 
-        private PlotView plot1;
+        private IPlotView plot1;
     }
 }
